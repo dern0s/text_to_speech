@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text to Speech</title>
-    <link rel="stylesheet" href="tts.css">
+    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 <body>
     <div id="main-container">
         <h1>Text to Speech</h1>
-        <p>Select Voice:</p>
+        <p class="common-text">Select Voice:</p>
         <select name="select_voice" id="voices"></select>
         <div id="controls">
             <p>Volume:</p>
@@ -29,10 +29,18 @@
             <span id="pitch-label">1</span>
         </div>
 
+        <textarea class="text-area" cols="30" rows="10" placeholder="Type here..."></textarea>
+
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="resume">Resume</button>
+            <button id="cancel">Cancel</button>
+        </div>
 
     </div>
 
-    <script src="tts.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

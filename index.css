@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#main-container{
+    padding: 6rem 6rem;
+    width: 80%;
+    height: auto;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+h1{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.common-text{
+    display: inline;
+    padding: 3rem 0;
+
+}
+
+#controls{
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text-area{
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+button{
+    padding: 1rem 1rem;
+    margin: 0.2rem;
+}
