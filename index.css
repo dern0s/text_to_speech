@@ -9,14 +9,14 @@ body{
     font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
+    background-color: #FEFAE0;
 }
 
 #main-container{
     padding: 6rem 6rem;
     width: 80%;
     height: auto;
-    /* display: flex;
-    flex-direction: column; */
+    color: #242B1C;
 }
 
 h1{
@@ -39,6 +39,9 @@ h1{
 
 .text-area{
     width: 100%;
+    color: #FEFAE0;
+    background-color: #242B1C;
+    font-family: "Lato", sans-serif;
 }
 
 .buttons{
@@ -50,4 +53,13 @@ h1{
 button{
     padding: 1rem 1rem;
     margin: 0.2rem;
+    background-color: #242B1C;
+    color: #FEFAE0;
+    font-family: "Lato", sans-serif;
+    transition: 0.5s ease-in;
+}
+
+button:hover{
+    background-color: #BC6C25;
+    color: #fff;
 }
