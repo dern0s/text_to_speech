@@ -17,8 +17,19 @@
         <h1>Text to Speech</h1>
         <p>Select Voice:</p>
         <select name="select_voice" id="voices"></select>
-        <p>Volume:</p>
-        <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1"/>
+        <div id="controls">
+            <p>Volume:</p>
+            <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+            <span id="volume-label">1</span>
+            <p>Rate:</p>
+            <input type="range" min="0.1" max="10" value="1" step="0.1" id="rate" />
+            <span id="rate-label">1</span>
+            <p>Pitch:</p>
+            <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+            <span id="pitch-label">1</span>
+        </div>
+
+
     </div>
 
     <script src="tts.js"></script>
