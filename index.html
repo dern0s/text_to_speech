@@ -14,9 +14,11 @@
 
 <body>
     <div id="main-container">
-        <h1>Text to Speech</h1>
-        <p class="common-text">Select Voice:</p>
-        <select name="select_voice" id="voices"></select>
+        <h1>TEXT TO SPEECH</h1>
+        <div class="selector">
+            <p class="common-text">Select Voice:</p>
+            <select name="select_voice" id="voices"></select>
+        </div>
         <div id="controls">
             <p>Volume:</p>
             <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
@@ -31,7 +33,7 @@
 
         <textarea class="text-area" cols="30" rows="10" placeholder="Type here..."></textarea>
 
-        <div class="buttons">
+        <div class="buttons-area">
             <button id="start">Start</button>
             <button id="pause">Pause</button>
             <button id="resume">Resume</button>

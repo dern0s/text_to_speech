@@ -13,7 +13,6 @@ body{
 }
 
 #main-container{
-    padding: 6rem 6rem;
     width: 80%;
     height: auto;
     color: #242B1C;
@@ -24,10 +23,24 @@ h1{
     padding: 3rem 0;
 }
 
+.selector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .common-text{
     display: inline;
     padding: 3rem 0;
 
+}
+
+select{
+    background-color: #FEFAE0;
+    color:#242B1C;
+    width: 50%;
+    margin: 0 3rem;
+    border: #242B1C solid 1px;
 }
 
 #controls{
@@ -39,12 +52,13 @@ h1{
 
 .text-area{
     width: 100%;
-    color: #FEFAE0;
-    background-color: #242B1C;
+    color: #242B1C;
     font-family: "Lato", sans-serif;
+    background-color: #FEFAE0;
+    border: #242B1C solid 1px;
 }
 
-.buttons{
+.buttons-area{
     display: flex;
     justify-content: center;
     padding: 2rem 0;
@@ -52,14 +66,22 @@ h1{
 
 button{
     padding: 1rem 1rem;
-    margin: 0.2rem;
+    margin: 0.4rem;
     background-color: #242B1C;
     color: #FEFAE0;
     font-family: "Lato", sans-serif;
     transition: 0.5s ease-in;
+    border: none;
+    box-shadow: 3px 2px 2px #808080;
+
 }
 
 button:hover{
     background-color: #BC6C25;
     color: #fff;
+}
+
+button:active{
+    box-shadow: none;
+    background-color: #5C3717;
 }
