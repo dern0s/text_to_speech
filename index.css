@@ -9,7 +9,7 @@ body{
     font-family: 'Lato', sans-serif;
     display: flex;
     justify-content: center;
-    background-color: #FEFAE0;
+    background-color: #fff;
 }
 
 #main-container{
@@ -36,7 +36,7 @@ h1{
 }
 
 select{
-    background-color: #FEFAE0;
+    background-color: #fff;
     color:#242B1C;
     width: 50%;
     margin: 0 3rem;
@@ -54,7 +54,7 @@ select{
     width: 100%;
     color: #242B1C;
     font-family: "Lato", sans-serif;
-    background-color: #FEFAE0;
+    background-color: #fff;
     border: #242B1C solid 1px;
 }
 
