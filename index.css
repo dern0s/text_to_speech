@@ -68,7 +68,7 @@ button{
     padding: 1rem 1rem;
     margin: 0.4rem;
     background-color: #242B1C;
-    color: #FEFAE0;
+    color: #fff;
     font-family: "Lato", sans-serif;
     transition: 0.5s ease-in;
     border: none;
@@ -78,7 +78,6 @@ button{
 
 button:hover{
     background-color: #BC6C25;
-    color: #fff;
 }
 
 button:active{
